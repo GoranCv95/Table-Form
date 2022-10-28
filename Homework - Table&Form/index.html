@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+   
+    <title>Table&Form - Design</title>
+  </head>
+  <body>
+    <!-- TABLE -->
+    <table class="table">
+      <tr class="table-row">
+        <th class="table-head">Ime</th>
+        <th class="table-head">Prezime</th>
+        <th class="table-head">Broj telefona</th>
+        <th class="table-head">E-mail</th>
+        <th class="table-head">Izbrisi</th>
+      </tr>
+      <tr class="table-row">
+        <td class="table-data">Pero</td>
+        <td class="table-data">Peric</td>
+        <td class="table-data">066789654</td>
+        <td class="table-data">pero.peric@testla.com</td>
+        <td class="table-data"><button class="table-btn">X</button></td>
+      </tr>
+      <tr class="table-row">
+        <td class="table-data">Marko</td>
+        <td class="table-data">Markovic</td>
+        <td class="table-data">066158224</td>
+        <td class="table-data">marko.markovic@tesla.com</td>
+        <td class="table-data"><button class="table-btn">X</button></td>
+      </tr>
+    </table>
+
+    <!-- FORM -->
+    <div class="form-container">
+      <form class="form">
+        <input
+          class="form-input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Ime"
+          required
+        />
+        <input
+          class="form-input"
+          type="text"
+          name="surname"
+          id="surname"
+          placeholder="Prezime"
+          required
+        />
+        <input
+          class="form-input"
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Broj telefona"
+          required
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+          required
+        />
+        <input type="button" id="btn" value="DODAJ" />
+  
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
